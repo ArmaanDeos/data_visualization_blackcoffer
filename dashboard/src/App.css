@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.main {
+  background-color: #eef7ff;
+  padding: 20px 0px;
+}
+.main_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main_container h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  padding: 20px 0;
+}
+
+.container_box {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.container_box .filter_form {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.filter_form label {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+.filter_form input {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  outline: none;
+}
+
+.filter_form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
