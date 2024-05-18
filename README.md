@@ -17,7 +17,15 @@ The Data Visualization Dashboard is a web application designed to visualize data
 
 
 Key Features
+
+
 1.Data Visualization: The dashboard uses D3.js and Chart.js to create interactive and dynamic visualizations.
+
+
 2.MERN Stack: The project leverages MongoDB for the database, Express.js and Node.js for the backend, and React.js for the frontend.
+
+
 3.API Integration: Node.js APIs are used to fetch data from the MongoDB database.
+
+
 4.Filters and Controls: Users can filter data based on various attributes such as end year, topics, sector, region, PEST, source, SWOT, country, and city.
